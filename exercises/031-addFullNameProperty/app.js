@@ -1,4 +1,12 @@
 function addFullNameProperty(obj) {
-  // Add your code after this line
-  
+
+
+//  obj = {
+//   firstName: " ",
+//   lastName: " ",
+//   fullName: obj.firstName +' '+ obj.lastName 
+// }
+obj.fullName = obj.firstName + ' ' + obj.lastName;
+console.log(obj)
+  return obj
 }
